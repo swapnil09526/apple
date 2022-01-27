@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#main{
+    height: 2000px;
+    width: 100%;
+    background-color: red;
+    
+}
+#screen{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#screen img{
+    position: relative;
+    top: 16%;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.925);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+    position: relative;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    opacity: .7;
+    
+}
+i{
+    color: white;
+}
+#screen h1{
+    bottom: 80%;
+    position: relative;
+    font-size: 60px;
+    font-family: gilroy;
+
+}
+#screen p{
+    bottom: 78%;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#screen h6{
+    bottom: 70%;
+    position: relative;
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.623);
+}
+#centre{
+    width: 100%;
+    height: 80vh;
+    background-color: #32283b;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+#centre h1{
+    bottom: 85%;
+    position: relative;
+    color: white;
+    font-family: gilroy;
+    font-size: 50px;
+}
+#centre img{
+    position: relative;
+    top: 16%;
+}
+#centre p{
+    position: relative;
+    bottom: 80%;
+    color: palevioletred;
+    font-size: 30px;
+}
+
+
